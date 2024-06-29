@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+}
+.nav-logo{
+    height: 50px;
+    width: 150px;
+}
+.logo{
+
+    height: 50px;
+    width: 150px;
+    background-image: url("odoo_logo.png");
+    background-size: cover ;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
